@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+          <img src="https://m.media-amazon.com/images/I/61mSyjeYXWL._AC_UL1001_.jpg" alt="Snow" style="width:65%">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="white shirt sizes">white shirt sizes</td></tr><tr><td><select name="os0">
+                <option value="small">small $10.00 USD</option>
+                <option value="medium">medium $11.00 USD</option>
+                <option value="large">large $12.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIH2QYJKoZIhvcNAQcEoIIHyjCCB8YCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCC6qodFEyz1JPzQK/A0ixpW42unIW2+Mo47uT2dydhOBAUIoHjr2fcuTcUTO9Py6+wIwhwla8+sbzvAsc74MRRq7IRJo2DJzsMDuwz9v47R9RJJiiIJL7sVWMViZyxG5RKWQoE+tKedBTZLQ7DNtFeNXPEjRf8uY0w8XjQ0AV7DTELMAkGBSsOAwIaBQAwggFVBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECH51ica6U5hdgIIBMIR20n5Bdo/3jBQb+Cq8tF2usXyGNYxb35bXHivNHUydhgzffqbwMwynvePA/u6dH7tnssZMNoMD929ImTTpZPtLgrMw7ixKCPdGag+uyEu0KBx+pLs/26gs/xcjpAxvZD927gbVLzJ6kz1rUcfJ6u+Q2A/LvGbI1wOncG7mblfdDjG930cXBk+Pm+Y6cQpl0djYAQcwNcdBMQHXnG/yDEjbWV/8OhA0FdjLASTGm6uToHIjgG+eMQDzNWT+yFC7F1uR5UbBQgVL9tkIUEUzAQT7iXH8+mTUqUweYDT3tXaaQkkXksrT6QMaVsufwqq3DCVniEEE4MmBU4DCAS/ElOkitxi7EF8Ni8Ir8vIjlzCI5kVo+R+M4HO6dq21vPtcZlCLbyNasdp3f1N31goruVWgggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yMTAzMTIyMjM1MTFaMCMGCSqGSIb3DQEJBDEWBBTz0g9K92ZHKp0STAzMheRWqAcJ7jANBgkqhkiG9w0BAQEFAASBgLaQcMTuUrspXH0CPz9jPR9qVx5u0xweqgZLEvFyOjAQO5FGjPbwHzTyDA0KiYBGgColXwJ6XtRroHeOfYEsqBxMgYu8wZodaVqXHjHsHRGsfjZJfd12jYt9BcMqhc0BuKRMDUkQacaxw0hxWYWF6S/Zy6/inqH24jEIPtc9YZef-----END PKCS7-----">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+        <div class="column">
+          <img src="https://m.media-amazon.com/images/I/61mSyjeYXWL._AC_UL1001_.jpg" alt="Forest" style="width:65%">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="brown shirt sizes">brown shirt sizes</td></tr><tr><td><select name="os0">
+                <option value="small">small $12.00 USD</option>
+                <option value="medium">medium $14.00 USD</option>
+                <option value="large">large $16.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            
+        </div>
+        <div class="column">
+          <img src="https://m.media-amazon.com/images/I/61mSyjeYXWL._AC_UL1001_.jpg" alt="Mountains" style="width:65%">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="logo shirt sizes">logo shirt sizes</td></tr><tr><td><select name="os0">
+                <option value="small">small $15.00 USD</option>
+                <option value="medium">medium $16.00 USD</option>
+                <option value="large">large $20.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIH2QYJKoZIhvcNAQcEoIIHyjCCB8YCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC803AKy2ZHVc6h2NEFzxErbD7TvHBvrjN6Kq+o4j7wcv6aJ1YGkl1eTubBcx3t0r842zxEJwniEP9iLJdIG+rxecoZHavWSrOb/Eg6J+ROtLfepdQIticCvl8vYWxP+sqBXeHdxWhphwyTGfXLJZLm9I/2/fd7zU1Y6lAcmhV+7DELMAkGBSsOAwIaBQAwggFVBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECOHubDO27mkWgIIBMKxtl0upSnQZ0/FY77K4qqnXQtjrzjwk5yOI27ed5Lhmhyl5mNHLQ4N+czuuxj/xuMItZOcwjXM9/ChmQvX2MDGPLIyKVoinhLonsCGDGhu6XRfkrG3CF/zL37pIZoHn1jkr7K5UEMJCoT2MfRPgA9LEhHbFUpiUtGXVPbMQxcr0ZXSs/3fcadBaMIIwsR3X0oBz2RX4gLW4Hw/dmqTLCIwQVgcvFrZMDfhLLQ7+KR0fuTa2RaNYKLHEBJDXpB+K8OjkeG5JWG1Eco571TtxwngVO8kY4qTIVN5ydTUR6x9iUok8u+KJPs9holpkiGfFeLJCK3eyiFQb3YbPAAQgb8nvZm8B7hMz4jsiN8gjYTxq/mVunw8nNKBcUnVOKJ6SfLwaDqqyAhhS3xRJLYCCJoGgggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yMTAzMTIyMjQxNTZaMCMGCSqGSIb3DQEJBDEWBBRC7rQnsjnBThfjbku6fSJUDxUVQTANBgkqhkiG9w0BAQEFAASBgBvF26rSXHrk1mXnqJU9uQN3J/vXGM8O/LgVHeubnY2lZpf6G3J/jjoh0K3L3jZVqFBAQpKnD+YMTbaB1W/sikU+mgNejXWUk/0z5oJYQL5t3LKYZDrYzsd134z4iPYF+y64mK+w8Czjxmeav/iYuu08XUplubxUZh3NEDaeMQY4-----END PKCS7-----">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            
+        </div>
+      </div>
+       
+      
+        
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</body>
+</html>
